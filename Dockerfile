@@ -5,4 +5,5 @@ RUN dnf install --assumeyes latexmk
 RUN dnf install --assumeyes texlive-metafont
 RUN dnf install --assumeyes texlive-mfware
 RUN dnf install --assumeyes texlive-isodate
+RUN dnf install --assumeyes texlive-makeindex
 
