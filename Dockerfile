@@ -1,4 +1,4 @@
-FROM pzlc/fedora:v7
+FROM pzlc/fedora:v8
 RUN dnf upgrade --refresh --assumeyes
 RUN dnf install --assumeyes texlive-latex
 RUN dnf install --assumeyes latexmk
