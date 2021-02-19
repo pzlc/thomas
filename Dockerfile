@@ -1,4 +1,4 @@
-FROM pzlc/fedora:v9
+FROM pzlc/fedora:v11
 RUN dnf upgrade --refresh --assumeyes
 RUN dnf install --assumeyes texlive-latex
 RUN dnf install --assumeyes latexmk
